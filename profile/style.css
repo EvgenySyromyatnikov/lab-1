@@ -1,0 +1,281 @@
+html, body {
+	margin: 0px;
+	padding: 0px;
+	font-family: "Roboto";
+	font-style: normal;
+
+}
+
+header {
+	position: relative;
+	height: 125px;	
+	display: flex;
+	justify-content: flex-end;
+}
+
+#guap-panel {
+	position: absolute;
+	left: 20px;
+	top: 35px;
+	justify-content: flex-start;
+}
+
+#guap-logo {
+	width: 146px;
+	height: 37px;
+}
+
+#nav-panel {
+	margin-top: 43px;
+	width: 236px;
+	display: flex;
+	justify-content: space-between;
+	margin-right: 42px;
+}
+
+	#nav-panel img {
+		width: 31px;
+		height: 31px;
+	}	
+
+#background-square {
+	margin-right: auto;
+	margin-left: auto;
+	width: 1187px;
+	height: 1834px;
+	background: #F7F7F7;
+	border-radius: 30px;
+	display: flex;
+	align-content: center;
+	justify-content: flex-start;
+	position: relative;
+	align-items: center;
+	overflow: auto;
+	flex-direction: column;
+}
+
+#top-panel {
+	width: 1100px;
+	height: 197px;
+	background: #D2EAFF;
+	border-radius: 30px;
+	margin-top: 39px;
+	margin-bottom: 23px;
+	position: relative;
+}
+	#top-panel-name {
+		position: absolute;
+		font-weight: 700;
+		font-size: 40px;
+		top: 20px;
+		left: 30px;
+	}
+
+	#top-panel-place {
+		position: absolute;
+		font-weight: 400;
+		font-size: 36px;
+		top: 100px;
+		left: 30px;
+	}
+
+	#top-panel-completed-tasks {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		position: absolute;
+		top: 90px;
+		left: 735px;
+		width: 70px;
+		height: 51px;
+	}
+
+		#top-panel-completed-tasks-text {
+			font-weight: 600;
+			font-size: 48px;
+
+		}
+
+		#check-logo {
+			width: 27px;
+			height: 20px;
+		}
+
+	#top-panel-uncompleted-tasks {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		position: absolute;
+		left: 820px;
+		top: 90px;
+		width: 80px;
+		height: 51px;
+	}
+
+		#top-panel-uncompleted-tasks-text {
+			font-weight: 600;
+			font-size: 48px;
+			color: #7E7E7E;
+
+		}
+
+		#cross-logo {
+			width: 20px;
+			height: 20px;
+		}
+
+
+#categories-panel {
+	width: 1100px;
+	height: 108px;
+	background: #D2EAFF;
+	border-radius: 30px;
+}
+
+	#categories-panel-inside {
+		margin-top: 22px;
+		margin-left: 27px;
+		width: 1046px;
+		height: 63px;
+		background: #89AAC8;
+		border-radius: 20px;
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+	}
+
+	#categories-panel-inside button {
+		font-weight: 400;
+		font-size: 24px;
+		background-color:#89AAC8;
+		border-radius: 20px;
+		padding: auto;
+		border: 0px;
+		height: 63px;
+		cursor: pointer;
+
+	}
+
+	#categories-panel-inside button:active {
+		background-color: white;
+	}
+
+#triple-panel {
+	margin-top: 24px;
+	margin-bottom: 23px;
+	display: flex;
+	width: 1100px;
+	justify-content:space-between ;
+}
+
+	#triple-panel-first {
+		width: 330px;
+		height: 156px;
+		background: linear-gradient(102.97deg, rgba(66, 191, 240, 0.8) 0%, rgba(31, 91, 178, 0.8) 44.27%, rgba(226, 24, 81, 0.8) 100%);
+		border-radius: 30px;
+	}
+
+	#triple-panel-first .triple-panel-score{
+		color: white;
+	}
+
+	#triple-panel-second {
+		width: 330px;
+		height: 156px;
+		background: linear-gradient(102.6deg, #62BFEA 0%, #4E78BD 100%);
+		border-radius: 30px;	
+	}
+
+	#triple-panel-third {
+		width: 330px;
+		height: 156px;
+		background: linear-gradient(102.6deg, #61BAE7 70.38%, #5285C6 100%);
+		border-radius: 30px;
+	}
+
+	.triple-panel-name {
+		margin-top: 22px;
+		margin-left: 30px;
+		font-weight: 700;
+		font-size: 24px;
+	}
+
+	.triple-panel-place {
+		display: inline-block;
+		margin-left: 30px;
+		margin-right: 55px;
+		font-weight: 700;
+		font-size: 32px;
+	}
+
+	.triple-panel-score {
+		display: inline-block;
+		font-weight: 700;
+		font-size: 48px;
+	}
+
+.normal-panel {
+	width: 1100px;
+	height: 72px;
+	background: #D2EAFF;
+	border-radius: 20px;
+	margin-bottom: 15px;
+}
+
+	.normal-panel-text {
+		font-weight: 700;
+		font-size: 32px;
+		margin-top: 22px;
+		margin-left: 22px;
+	}
+
+#skill {
+	position: absolute;
+	width: 160px;
+	height: 160px;
+	top: 25px;
+	left: 935px;
+}
+
+#outer {
+	width: 	160px;
+	height: 160px;
+	border-radius: 50%;
+	padding: 20px;
+}
+
+#inner {
+	width: 120px;
+	height: 120px;
+	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+
+#number {
+	font-weight: 700;
+	font-size: 32px;
+}
+
+circle {
+	fill: none;
+	stroke: url(#GradientColor);
+	stroke-width: 12px;
+	stroke-dasharray: 472;
+	stroke-dashoffset: 0;
+	animation: anim 2s linear forwards;
+}
+
+svg {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+@keyframes anim {
+	100%{
+		stroke-dashoffset: 300;
+	}
+}
